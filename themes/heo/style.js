@@ -64,8 +64,8 @@ const Style = () => {
       .notion-row {
           display: flex;
           overflow: hidden;
-          width: 50%;
-          max-width: 50%;
+          width: 30%;
+          max-width: 30%;
       }
       .notion-bookmark-image {
           flex: 1 1 90px;
