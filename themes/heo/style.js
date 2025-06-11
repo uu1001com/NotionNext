@@ -61,6 +61,12 @@ const Style = () => {
           transform: translateX(-50%);
         }
       }
+      .notion-row {
+          display: flex;
+          overflow: hidden;
+          width: 50%;
+          max-width: 50%;
+      }
     `}</style>
   )
 }
