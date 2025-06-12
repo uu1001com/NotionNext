@@ -62,7 +62,7 @@ const Style = () => {
         }
       }
       .notion-row {
-          display: inline-block;
+          /*display: inline-block;*/
           overflow: hidden;
           width: 30%;
           max-width: 30%;
