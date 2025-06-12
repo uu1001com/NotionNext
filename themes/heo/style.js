@@ -73,7 +73,7 @@ const Style = () => {
           }
 
           .notion-row .notion-column {
-            width: 100% !important;
+            width: 50% !important;
           }
         
 
