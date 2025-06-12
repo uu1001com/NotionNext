@@ -62,34 +62,33 @@ const Style = () => {
         }
       }
       .notion-row {
-          display: flex;
-          flex-wrap: wrap; // 添加换行
-          gap: 20px; // 添加间距
-          width: 30%; // 修改宽度为100%
-          max-width: 30%;
-          justify-content: flex-start; // 左对齐
-      }
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 16px;
+  width: 100%;
+  max-width: 100%;
+  padding: 0 16px;
+}
 
-      .notion-row .notion-column {
-          flex: 0 0 calc(33.333% - 14px); // 设置每列宽度为三分之一
-          min-width: 300px; // 设置最小宽度
-          margin: 0; // 重置边距
-      }
+/* 重置列样式 */
+.notion-row .notion-column {
+  width: 100% !important;
+  padding: 0;
+  margin: 0;
+}
 
-       @media (max-width: 640px) {
-          .notion-row {
-            gap: 10px; // 移动端缩小间距
-          }
+/* 移动端适配 */
+@media (max-width: 640px) {
+  .notion-row {
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 12px;
+    padding: 0 12px;
+  }
 
-          .notion-row .notion-column {
-            flex: 0 0 calc(50% - 5px); // 移动端两列
-            min-width: 150px; // 移动端最小宽度
-          }
-
-          .notion-row .notion-spacer {
-            display: none;
-          }
-      }
+  .notion-row .notion-spacer {
+    display: none;
+  }
+}
 
 
       .notion-bookmark-image {
