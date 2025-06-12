@@ -807,7 +807,7 @@ code[class*='language-'] {
   }
 
   .notion-row .notion-column {
-    width: 100% !important;
+    width: 30% !important;
   }
 
   .notion-row .notion-spacer {
