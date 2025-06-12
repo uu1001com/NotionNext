@@ -61,14 +61,11 @@ const Style = () => {
           transform: translateX(-50%);
         }
       }
-
       .notion-row {
           display: flex;
-          flex-direction: row;
           overflow: hidden;
-
           width: 30%;
-          max-width: 50%;
+          max-width: 30%;
       }
       .notion-bookmark-image {
           display: none;
