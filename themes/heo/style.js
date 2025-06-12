@@ -72,6 +72,19 @@ const Style = () => {
           /*flex: 1 1 90px;*/
           position: relative;
       }
+      @media (max-width: 640px) {
+          .notion-row {
+               flex-direction: row;
+          }
+
+          .notion-row .notion-column {
+               width: 100% !important;
+          }
+
+          .notion-row .notion-spacer {
+              display: none;
+         }
+      }
     `}</style>
   )
 }
