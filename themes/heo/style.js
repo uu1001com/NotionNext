@@ -62,35 +62,11 @@ const Style = () => {
         }
       }
       .notion-row {
-              display: grid;
-              grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-              gap: 16px;
-              width: 100%;
-              max-width: 100%;
-              padding: 0 16px;
+          display: inline-block;
+          overflow: hidden;
+          width: 30%;
+          max-width: 30%;
       }
-
-      /* 重置列样式 */
-      .notion-row .notion-column {
-        width: 100% !important;
-        padding: 0;
-        margin: 0;
-      }
-
-      /* 移动端适配 */
-      @media (max-width: 640px) {
-        .notion-row {
-          grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-          gap: 12px;
-          padding: 0 12px;
-        }
-
-        .notion-row .notion-spacer {
-          display: none;
-        }
-      }   
-
-
       .notion-bookmark-image {
           display: none;
           /*flex: 1 1 90px;*/
