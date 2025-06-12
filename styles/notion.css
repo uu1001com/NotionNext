@@ -801,7 +801,7 @@ code[class*='language-'] {
   max-width: 100%;
 }
 
-@media (max-width: 640px) {
+/*@media (max-width: 640px) {
   .notion-row {
     flex-direction: column;
   }
@@ -813,7 +813,7 @@ code[class*='language-'] {
   .notion-row .notion-spacer {
     display: none;
   }
-}
+}*/
 
 .notion-bookmark {
   margin: 4px 0;
