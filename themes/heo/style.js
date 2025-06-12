@@ -61,6 +61,12 @@ const Style = () => {
           transform: translateX(-50%);
         }
       }
+      .notion-column {
+          display: flex;
+          flex-direction: row;
+          padding-top: 12px;
+          padding-bottom: 12px;
+      }
       .notion-row {
           display:  flex;
           overflow: hidden;
