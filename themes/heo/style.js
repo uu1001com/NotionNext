@@ -72,19 +72,19 @@ const Style = () => {
           /*flex: 1 1 90px;*/
           position: relative;
       }
-      @media (max-width: 640px) {
-          .notion-row {
-               flex-direction: row;
-          }
-
-          .notion-row .notion-column {
-               width: 100% !important;
-          }
-
-          .notion-row .notion-spacer {
-              display: none;
-         }
+      .notion-row {
+          display: flex;
+          flex-wrap: wrap; /* 添加这行来支持自动换行 */
+          gap: 20px; /* 添加间距 */
+          width: 100%;
+          max-width: 100%;
       }
+
+      .notion-row .notion-column {
+          flex: 1 1 calc(33.333% - 20px); /* 设置每列宽度为三分之一，减去间距 */
+          min-width: 250px; /* 设置最小宽度，避免太窄 */
+      }
+          
     `}</style>
   )
 }
