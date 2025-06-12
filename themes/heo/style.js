@@ -79,7 +79,7 @@ const Style = () => {
           }
 
           .notion-row .notion-column {
-            width: 50% !important;
+            /*width: 50% !important;*/
           }
 
           .notion-row .notion-spacer {
