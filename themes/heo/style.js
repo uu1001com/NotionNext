@@ -62,10 +62,10 @@ const Style = () => {
         }
       }
       .notion-row {
-          /*display: inline-block;*/
+          display: inline flex;
           overflow: hidden;
-          width: 30%;
-          max-width: 30%;
+          width: 30px;
+          max-width: 50%;
       }
       .notion-bookmark-image {
           display: none;
