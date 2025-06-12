@@ -68,7 +68,7 @@ const Style = () => {
           max-width: 30%;
       }
       .notion-bookmark-image {
-          flex: 1 1 90px;
+          flex: 1 1 0px;
           position: relative;
       }
     `}</style>
