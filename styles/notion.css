@@ -776,8 +776,8 @@ code[class*='language-'] {
 }
 
 .notion-column {
-  display: flex;
-  flex-direction: column;
+  display: inline flex;
+  flex-direction: row;
   padding-top: 12px;
   padding-bottom: 12px;
 }
