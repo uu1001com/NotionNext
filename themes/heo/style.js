@@ -80,10 +80,6 @@ const Style = () => {
           max-width: 100%;
       }
 
-      .notion-row .notion-column {
-          flex: 1 1 calc(33.333% - 20px); /* 设置每列宽度为三分之一，减去间距 */
-          min-width: 250px; /* 设置最小宽度，避免太窄 */
-      }
           
     `}</style>
   )
