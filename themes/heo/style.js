@@ -67,6 +67,21 @@ const Style = () => {
           width: 30%;
           max-width: 30%;
       }
+       @media (max-width: 640px) {
+          .notion-row {
+            flex-direction: row;
+          }
+
+          .notion-row .notion-column {
+            width: 100% !important;
+          }
+        
+
+          .notion-row .notion-spacer {
+            display: none;
+          }
+        
+      }
       .notion-bookmark-image {
           display: none;
           /*flex: 1 1 90px;*/
