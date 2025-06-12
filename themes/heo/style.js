@@ -64,8 +64,8 @@ const Style = () => {
       .notion-row {
           display:  flex;
           overflow: hidden;
-          width: 30px;
-          max-width: 30%;
+          width: 50px;
+          max-width: 50%;
       }
       @media (max-width: 140px) {
           .notion-row {
@@ -73,7 +73,7 @@ const Style = () => {
           }
 
           .notion-row .notion-column {
-            width: 100% !important;
+            width: 50% !important;
           }
 
           .notion-row .notion-spacer {
