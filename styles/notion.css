@@ -795,7 +795,7 @@ code[class*='language-'] {
 }
 
 .notion-row {
-  display: flex;
+  display: inline flex;
   overflow: hidden;
   width: 100%;
   max-width: 100%;
