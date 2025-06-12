@@ -63,29 +63,32 @@ const Style = () => {
       }
       .notion-row {
           display: flex;
-          overflow: hidden;
-          width: 30%;
-          max-width: 30%;
+          flex-wrap: wrap; // 添加换行
+          gap: 20px; // 添加间距
+          width: 100%; // 修改宽度为100%
+          max-width: 100%;
+          justify-content: flex-start; // 左对齐
       }
+
+      .notion-row .notion-column {
+          flex: 0 0 calc(33.333% - 14px); // 设置每列宽度为三分之一
+          min-width: 300px; // 设置最小宽度
+          margin: 0; // 重置边距
+      }
+
        @media (max-width: 640px) {
           .notion-row {
-            flex-direction: row;
+            gap: 10px; // 移动端缩小间距
           }
 
           .notion-row .notion-column {
-            width: 50% !important;
+            flex: 0 0 calc(50% - 5px); // 移动端两列
+            min-width: 150px; // 移动端最小宽度
           }
-        
 
           .notion-row .notion-spacer {
             display: none;
           }
-        
-      }
-      .notion-bookmark-image {
-          display: none;
-          /*flex: 1 1 90px;*/
-          position: relative;
       }
         
     `}</style>
