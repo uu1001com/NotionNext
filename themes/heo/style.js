@@ -62,10 +62,23 @@ const Style = () => {
         }
       }
       .notion-row {
-          display: inline flex;
+          display:  flex;
           overflow: hidden;
           width: 30px;
-          max-width: 50%;
+          max-width: 30%;
+      }
+      @media (max-width: 140px) {
+          .notion-row {
+            flex-direction: row;
+          }
+
+          .notion-row .notion-column {
+            width: 100% !important;
+          }
+
+          .notion-row .notion-spacer {
+            display: none;
+          }
       }
       .notion-bookmark-image {
           display: none;
