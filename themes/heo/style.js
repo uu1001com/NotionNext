@@ -65,8 +65,8 @@ const Style = () => {
           display: flex;
           flex-wrap: wrap; // 添加换行
           gap: 20px; // 添加间距
-          width: 100%; // 修改宽度为100%
-          max-width: 100%;
+          width: 30%; // 修改宽度为100%
+          max-width: 30%;
           justify-content: flex-start; // 左对齐
       }
 
@@ -90,7 +90,13 @@ const Style = () => {
             display: none;
           }
       }
-        
+
+
+      .notion-bookmark-image {
+          display: none;
+          /*flex: 1 1 90px;*/
+          position: relative;
+      }
     `}</style>
   )
 }
