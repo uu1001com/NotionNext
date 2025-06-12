@@ -63,28 +63,17 @@ const Style = () => {
       }
       .notion-column {
           display: flex;
-          flex-direction: row;
+          flex-direction: column;
           padding-top: 12px;
           padding-bottom: 12px;
       }
       .notion-row {
-          display:  flex;
+          display: flex;
+          flex-direction: row;
           overflow: hidden;
-          width: 50px;
-          max-width: 50%;
-      }
-      @media (max-width: 140px) {
-          .notion-row {
-            flex-direction: row;
-          }
 
-          .notion-row .notion-column {
-            /*width: 50% !important;*/
-          }
-
-          .notion-row .notion-spacer {
-            display: none;
-          }
+          width: 30%;
+          max-width: 30%;
       }
       .notion-bookmark-image {
           display: none;
