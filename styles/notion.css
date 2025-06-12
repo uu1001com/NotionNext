@@ -803,7 +803,7 @@ code[class*='language-'] {
 
 @media (max-width: 640px) {
   .notion-row {
-    flex-direction: column;
+    flex-direction: row;
   }
 
   .notion-row .notion-column {
@@ -822,7 +822,7 @@ code[class*='language-'] {
   text-decoration: none;
   border: 1px solid var(--fg-color-1);
   border-radius: 3px;
-  display: flex;
+  display: inline flex;
   overflow: hidden;
   user-select: none;
 }
