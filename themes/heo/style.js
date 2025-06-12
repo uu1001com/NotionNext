@@ -72,15 +72,7 @@ const Style = () => {
           /*flex: 1 1 90px;*/
           position: relative;
       }
-      .notion-row {
-          display: flex;
-          flex-wrap: wrap; /* 添加这行来支持自动换行 */
-          gap: 20px; /* 添加间距 */
-          width: 100%;
-          max-width: 100%;
-      }
-
-          
+        
     `}</style>
   )
 }
