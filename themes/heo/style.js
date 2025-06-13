@@ -72,6 +72,7 @@ const Style = () => {
       }
       .notion-bookmark:hover {
         border-color: var(--notion-blue); /* 悬停时边框颜色变为蓝色 */
+        background-color: #fff8dc; /* 悬停时背景颜色变为浅黄色 */
         box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* 添加轻微阴影 */
       }
     `}</style>
