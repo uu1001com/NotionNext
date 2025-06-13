@@ -73,26 +73,13 @@ const Style = () => {
           position: relative;
       }
       .notion-spacer {
-          width: calc(min(16px, 4vw));
+        width: calc(min(16px, 4vw));
       }
       .notion-bookmark:hover {
-          border-color: var(--notion-blue); /* 悬停时边框颜色变为蓝色 */
-          background-color: #fff8dc; /* 悬停时背景颜色变为浅黄色 */
-          box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* 添加轻微阴影 */
+        border-color: var(--notion-blue); /* 悬停时边框颜色变为蓝色 */
+        background-color: #fff8dc; /* 悬停时背景颜色变为浅黄色 */
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* 添加轻微阴影 */
       }
-      .notion-bookmark:hover::after {
-    content: attr(data-title);
-    position: absolute;
-    bottom: -30px;
-    left: 50%;
-    transform: translateX(-50%);
-    padding: 5px 10px;
-    background: rgba(0,0,0,0.7);
-    color: white;
-    border-radius: 4px;
-    font-size: 12px;
-    white-space: nowrap;
-}
     `}</style>
   )
 }
