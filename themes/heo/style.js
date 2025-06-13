@@ -61,6 +61,11 @@ const Style = () => {
           transform: translateX(-50%);
         }
       }
+      .notion-bookmark-link {
+          display: none;
+          margin-top: 6px;
+          @apply w-52 md:w-80;
+      }
 
       .notion-bookmark-image {
           display: none;
