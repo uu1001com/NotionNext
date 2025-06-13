@@ -67,6 +67,9 @@ const Style = () => {
           /*flex: 1 1 90px;*/
           position: relative;
       }
+      .notion-spacer {
+        width: calc(min(16px, 4vw));
+      }
     `}</style>
   )
 }
