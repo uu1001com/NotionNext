@@ -81,18 +81,9 @@ const Style = () => {
           box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* 添加轻微阴影 */
       }
       .notion-bookmark:hover::after {
-    content: attr(data-title);
-    position: absolute;
-    bottom: -30px;
-    left: 50%;
-    transform: translateX(-50%);
-    padding: 5px 10px;
-    background: rgba(0,0,0,0.7);
-    color: white;
-    border-radius: 4px;
-    font-size: 12px;
-    white-space: nowrap;
-}
+          content: attr(data-title);
+   
+      }
     `}</style>
   )
 }
