@@ -70,6 +70,10 @@ const Style = () => {
       .notion-spacer {
         width: calc(min(16px, 4vw));
       }
+      .notion-bookmark:hover {
+        border-color: var(--notion-blue); /* 悬停时边框颜色变为蓝色 */
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* 添加轻微阴影 */
+      }
     `}</style>
   )
 }
